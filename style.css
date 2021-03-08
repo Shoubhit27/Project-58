@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+
+.myphoto {
+    height: 200px;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 12;
+    cursor: pointer;
+}
+
+#welcome {
+    background: linear-gradient(darkcyan 0%, cyan 100%);
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    display: table;
+    z-index: 9;
+}
+
+.link {
+    float: left;
+    color: #fff;
+    font-family: cursive;
+    font-size: 20px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.link:hover {
+    background-color: lightskyblue;
+}
+
+.me {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+    align-self: center;
+}
+
+#hobby {
+    font-family: fantasy;
+}
